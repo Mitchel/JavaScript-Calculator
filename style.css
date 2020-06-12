@@ -1,0 +1,31 @@
+body,html {
+    background: #242830;
+    color: #fff;
+}
+
+.calculator {
+    width: 400px;
+    height: 530px;
+    overflow: hidden;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.calculator h3  .text-muted {
+    color: rgba(255,255,255,.5) !important;
+    font-size: 16px !important;
+    float: right;
+    margin-top: 8px;
+}
+
+.calculator hr {
+    border-top: 1px solid rgba(255,255,255,.2) !important;
+}
+
+.calculator .card .card-body {
+    color: #000 !important;
+}
